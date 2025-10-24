@@ -1,0 +1,259 @@
+.menu {
+  width: 90%;
+  margin: 5px auto;
+  border: 1px solid rgb(120, 93, 139);
+  text-align: center;
+  border-radius: 5px;
+}
+
+.menu-botton {
+  width: 10%;
+  text-align: center;
+  display: inline-block;
+  color: rgb(28, 0, 48);
+  text-decoration: none;
+  vertical-align: middle;
+  margin: 2px;
+  overflow: hidden;
+}
+
+.menu-botton-active {
+  width: 10%;
+  text-align: center;
+  vertical-align: middle;
+  display: inline-block;
+  background-color: indianred;
+  color: white;
+  text-decoration: none;
+  margin: 2px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.two-pictures {
+  text-align: center;
+  height: 50%;
+  margin: 3px 0px;
+  box-sizing: border-box;
+}
+
+.item {
+  width: 48%;
+  height: 100%;
+  display: inline-block;
+}
+
+.item img {
+  width: 100%;
+  height: 100%;
+  vertical-align: top;
+}
+
+.four-pictures {
+  display: inline-block;
+  width: 60%;
+  height: 100%;
+}
+
+.pictures {
+  text-align: justify;
+  width: 88%;
+  margin: 5px auto;
+  overflow: hidden;
+  height: 35vh;
+}
+
+.big-item {
+  width: 38%;
+  display: inline-block;
+  margin: 3px 0px;
+  height: 100%;
+  vertical-align: top;
+}
+
+.big-item img {
+  width: 100%;
+  height: 100%;
+  vertical-align: top;
+}
+
+.content {
+  width: 85%;
+  margin: 5px auto;
+  text-align: justify;
+  height: 180vh;
+}
+
+div.vertical-info a.left {
+  text-align: left;
+  display: block;
+  margin: 5px;
+}
+
+div.vertical-info a.right {
+  text-align: right;
+  display: block;
+  margin: 5px;
+}
+
+div.vertical-info {
+  display: inline-block;
+  text-align: center;
+  width: 25%;
+  background-color: lightpink;
+  color: rgb(28, 0, 48);
+  border-radius: 10px;
+  padding: 5px 10px;
+  overflow: hidden;
+  vertical-align: top;
+}
+
+div.vertical-info img {
+  width: 80%;
+  vertical-align: top;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+div.six-items {
+  display: inline-block;
+  width: 68.5%;
+  height: 100%;
+  text-align: justify;
+  color: rgb(28, 0, 48);
+}
+
+div.up {
+  display: block;
+  width: 100%;
+  height: 48.5%;
+  text-align: justify;
+  overflow: hidden;
+}
+
+div.down {
+  display: block;
+  width: 100%;
+  height: 48.5%;
+  text-align: justify;
+  overflow: hidden;
+  margin: 5px 0 0 0;
+}
+
+div.up div.vertical-info {
+  display: inline-block;
+  width: 35%;
+  border-radius: 10px;
+  padding: 5px 10px;
+  overflow: hidden;
+  height: 100%;
+  vertical-align: top;
+  background-color: rgb(252, 212, 218);
+  border-radius: 10px;
+}
+
+div.down div.vertical-info {
+  display: inline-block;
+  width: 35%;
+  border-radius: 10px;
+  padding: 5px 10px;
+  overflow: hidden;
+  height: 100%;
+  vertical-align: top;
+  border-radius: 10px;
+  background-color: rgb(221, 182, 255);
+}
+
+div.two-horizontal-info {
+  display: inline-block;
+  width: 54.5%;
+  height: 100%;
+  text-align: justify;
+}
+
+div.up div.two-horizontal-info div.horizontal-info {
+  border-radius: 10px;
+  padding: 5px 10px;
+  overflow: hidden;
+  width: 100%;
+  height: 48.5%;
+  background-color: rgb(252, 212, 218);
+  margin: 0 5px 5px 0;
+}
+
+div.down div.two-horizontal-info div.horizontal-info {
+  display: block;
+  width: 100%;
+  border-radius: 10px;
+  padding: 5px 10px;
+  overflow: hidden;
+  height: 48.5%;
+  background-color: rgb(221, 182, 255);
+  margin: 5px;
+  margin: 0 5px 5px 0;
+}
+
+div.horizontal-info h4 {
+  text-align: left;
+  display: inline-block;
+  width: 15%;
+  vertical-align: middle;
+}
+
+div.horizontal-info p {
+  text-align: left;
+  display: block;
+  width: 100%;
+  overflow: hidden;
+}
+
+div.help-pict img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+div.help-pict{
+  width: 20%;
+  vertical-align: middle;
+  border-radius: 10px;
+  display: inline-block;
+  margin: 0 1%;
+  height: 100%;
+}
+
+div.horizontal-info a.left {
+  text-align: left;
+  display: block;
+}
+
+div.horizontal-info a.right {
+  text-align: right;
+  display: block;
+}
+
+.info-content {
+  display: inline-block;
+  width: 55%;
+  vertical-align: middle;
+}
+
+.help {
+  text-align: right;
+}
+
+input[type="button"].left {
+  background-color: rgb(141, 141, 254);
+  color: white;
+  border-radius: 10px;
+  display: inline-block;
+  text-align: left;
+}
+
+input[type="button"].right {
+  background-color: rgb(141, 141, 254);
+  color: white;
+  border-radius: 10px;
+  display: inline-block;
+  text-align: right;
+}
